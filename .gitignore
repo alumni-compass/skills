@@ -1,0 +1,41 @@
+# Environment files (keep shareable examples in the repository)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Private keys, certificates, and credential stores
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+
+# Common provider credentials and local auth state
+.aws/
+.azure/
+.gcloud/
+.kube/
+credentials
+credentials.*
+secrets/
+secrets.*
+*secret*.json
+*service-account*.json
+*service_account*.json
+client_secret*.json
+token.json
+tokens.json
+oauth*.json
+
+# Local machine and editor files
+.DS_Store
+Thumbs.db
+*.local
+*.log
+

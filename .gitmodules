@@ -1,0 +1,3 @@
+[submodule "unslop"]
+	path = unslop
+	url = https://github.com/alumni-compass/unslop.git
